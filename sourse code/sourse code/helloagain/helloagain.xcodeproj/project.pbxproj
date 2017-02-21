@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6BF0702166EE7840082BBBE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6BF0701166EE7840082BBBE /* UIKit.framework */; };
+		E6BF0704166EE7840082BBBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6BF0703166EE7840082BBBE /* Foundation.framework */; };
+		E6BF0706166EE7840082BBBE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6BF0705166EE7840082BBBE /* CoreGraphics.framework */; };
+		E6BF070C166EE7840082BBBE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E6BF070A166EE7840082BBBE /* InfoPlist.strings */; };
+		E6BF070E166EE7840082BBBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6BF070D166EE7840082BBBE /* main.m */; };
+		E6BF0712166EE7840082BBBE /* helloagainAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6BF0711166EE7840082BBBE /* helloagainAppDelegate.m */; };
+		E6BF0715166EE7840082BBBE /* helloagainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6BF0714166EE7840082BBBE /* helloagainViewController.m */; };
+		E6BF0718166EE7840082BBBE /* helloagainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6BF0716166EE7840082BBBE /* helloagainViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E6BF06FD166EE7840082BBBE /* helloagain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helloagain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6BF0701166EE7840082BBBE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E6BF0703166EE7840082BBBE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E6BF0705166EE7840082BBBE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E6BF0709166EE7840082BBBE /* helloagain-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "helloagain-Info.plist"; sourceTree = "<group>"; };
+		E6BF070B166EE7840082BBBE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E6BF070D166EE7840082BBBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E6BF070F166EE7840082BBBE /* helloagain-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "helloagain-Prefix.pch"; sourceTree = "<group>"; };
+		E6BF0710166EE7840082BBBE /* helloagainAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = helloagainAppDelegate.h; sourceTree = "<group>"; };
+		E6BF0711166EE7840082BBBE /* helloagainAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = helloagainAppDelegate.m; sourceTree = "<group>"; };
+		E6BF0713166EE7840082BBBE /* helloagainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = helloagainViewController.h; sourceTree = "<group>"; };
+		E6BF0714166EE7840082BBBE /* helloagainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = helloagainViewController.m; sourceTree = "<group>"; };
+		E6BF0717166EE7840082BBBE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/helloagainViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6BF06FA166EE7840082BBBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6BF0702166EE7840082BBBE /* UIKit.framework in Frameworks */,
+				E6BF0704166EE7840082BBBE /* Foundation.framework in Frameworks */,
+				E6BF0706166EE7840082BBBE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6BF06F2166EE7840082BBBE = {
+			isa = PBXGroup;
+			children = (
+				E6BF0707166EE7840082BBBE /* helloagain */,
+				E6BF0700166EE7840082BBBE /* Frameworks */,
+				E6BF06FE166EE7840082BBBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6BF06FE166EE7840082BBBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6BF06FD166EE7840082BBBE /* helloagain.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6BF0700166EE7840082BBBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6BF0701166EE7840082BBBE /* UIKit.framework */,
+				E6BF0703166EE7840082BBBE /* Foundation.framework */,
+				E6BF0705166EE7840082BBBE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6BF0707166EE7840082BBBE /* helloagain */ = {
+			isa = PBXGroup;
+			children = (
+				E6BF0710166EE7840082BBBE /* helloagainAppDelegate.h */,
+				E6BF0711166EE7840082BBBE /* helloagainAppDelegate.m */,
+				E6BF0713166EE7840082BBBE /* helloagainViewController.h */,
+				E6BF0714166EE7840082BBBE /* helloagainViewController.m */,
+				E6BF0716166EE7840082BBBE /* helloagainViewController.xib */,
+				E6BF0708166EE7840082BBBE /* Supporting Files */,
+			);
+			path = helloagain;
+			sourceTree = "<group>";
+		};
+		E6BF0708166EE7840082BBBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6BF0709166EE7840082BBBE /* helloagain-Info.plist */,
+				E6BF070A166EE7840082BBBE /* InfoPlist.strings */,
+				E6BF070D166EE7840082BBBE /* main.m */,
+				E6BF070F166EE7840082BBBE /* helloagain-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6BF06FC166EE7840082BBBE /* helloagain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6BF071B166EE7840082BBBE /* Build configuration list for PBXNativeTarget "helloagain" */;
+			buildPhases = (
+				E6BF06F9166EE7840082BBBE /* Sources */,
+				E6BF06FA166EE7840082BBBE /* Frameworks */,
+				E6BF06FB166EE7840082BBBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = helloagain;
+			productName = helloagain;
+			productReference = E6BF06FD166EE7840082BBBE /* helloagain.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6BF06F4166EE7840082BBBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "呼喊";
+			};
+			buildConfigurationList = E6BF06F7166EE7840082BBBE /* Build configuration list for PBXProject "helloagain" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E6BF06F2166EE7840082BBBE;
+			productRefGroup = E6BF06FE166EE7840082BBBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6BF06FC166EE7840082BBBE /* helloagain */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6BF06FB166EE7840082BBBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6BF070C166EE7840082BBBE /* InfoPlist.strings in Resources */,
+				E6BF0718166EE7840082BBBE /* helloagainViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6BF06F9166EE7840082BBBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6BF070E166EE7840082BBBE /* main.m in Sources */,
+				E6BF0712166EE7840082BBBE /* helloagainAppDelegate.m in Sources */,
+				E6BF0715166EE7840082BBBE /* helloagainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E6BF070A166EE7840082BBBE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6BF070B166EE7840082BBBE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E6BF0716166EE7840082BBBE /* helloagainViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6BF0717166EE7840082BBBE /* en */,
+			);
+			name = helloagainViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6BF0719166EE7840082BBBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E6BF071A166EE7840082BBBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6BF071C166EE7840082BBBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "helloagain/helloagain-Prefix.pch";
+				INFOPLIST_FILE = "helloagain/helloagain-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E6BF071D166EE7840082BBBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "helloagain/helloagain-Prefix.pch";
+				INFOPLIST_FILE = "helloagain/helloagain-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6BF06F7166EE7840082BBBE /* Build configuration list for PBXProject "helloagain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6BF0719166EE7840082BBBE /* Debug */,
+				E6BF071A166EE7840082BBBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6BF071B166EE7840082BBBE /* Build configuration list for PBXNativeTarget "helloagain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6BF071C166EE7840082BBBE /* Debug */,
+				E6BF071D166EE7840082BBBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6BF06F4166EE7840082BBBE /* Project object */;
+}

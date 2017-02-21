@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6BB87F7167B089A00EBB0B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6BB87F6167B089A00EBB0B7 /* UIKit.framework */; };
+		E6BB87F9167B089A00EBB0B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6BB87F8167B089A00EBB0B7 /* Foundation.framework */; };
+		E6BB87FB167B089A00EBB0B7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6BB87FA167B089A00EBB0B7 /* CoreGraphics.framework */; };
+		E6BB8801167B089A00EBB0B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E6BB87FF167B089A00EBB0B7 /* InfoPlist.strings */; };
+		E6BB8803167B089A00EBB0B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6BB8802167B089A00EBB0B7 /* main.m */; };
+		E6BB8807167B089A00EBB0B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6BB8806167B089A00EBB0B7 /* AppDelegate.m */; };
+		E6BB881B167B090900EBB0B7 /* Save.m in Sources */ = {isa = PBXBuildFile; fileRef = E6BB8819167B090900EBB0B7 /* Save.m */; };
+		E6BB881C167B090900EBB0B7 /* Save.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6BB881A167B090900EBB0B7 /* Save.xib */; };
+		E6BB8820167B091800EBB0B7 /* Num.m in Sources */ = {isa = PBXBuildFile; fileRef = E6BB881E167B091800EBB0B7 /* Num.m */; };
+		E6BB8821167B091800EBB0B7 /* Num.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6BB881F167B091800EBB0B7 /* Num.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E6BB87F2167B089A00EBB0B7 /* TelNumNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelNumNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6BB87F6167B089A00EBB0B7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E6BB87F8167B089A00EBB0B7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E6BB87FA167B089A00EBB0B7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E6BB87FE167B089A00EBB0B7 /* TelNumNote-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TelNumNote-Info.plist"; sourceTree = "<group>"; };
+		E6BB8800167B089A00EBB0B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E6BB8802167B089A00EBB0B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E6BB8804167B089A00EBB0B7 /* TelNumNote-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TelNumNote-Prefix.pch"; sourceTree = "<group>"; };
+		E6BB8805167B089A00EBB0B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E6BB8806167B089A00EBB0B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E6BB8818167B090900EBB0B7 /* Save.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Save.h; sourceTree = "<group>"; };
+		E6BB8819167B090900EBB0B7 /* Save.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Save.m; sourceTree = "<group>"; };
+		E6BB881A167B090900EBB0B7 /* Save.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Save.xib; sourceTree = "<group>"; };
+		E6BB881D167B091800EBB0B7 /* Num.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Num.h; sourceTree = "<group>"; };
+		E6BB881E167B091800EBB0B7 /* Num.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Num.m; sourceTree = "<group>"; };
+		E6BB881F167B091800EBB0B7 /* Num.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Num.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6BB87EF167B089A00EBB0B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6BB87F7167B089A00EBB0B7 /* UIKit.framework in Frameworks */,
+				E6BB87F9167B089A00EBB0B7 /* Foundation.framework in Frameworks */,
+				E6BB87FB167B089A00EBB0B7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6BB87E7167B089A00EBB0B7 = {
+			isa = PBXGroup;
+			children = (
+				E6BB87FC167B089A00EBB0B7 /* TelNumNote */,
+				E6BB87F5167B089A00EBB0B7 /* Frameworks */,
+				E6BB87F3167B089A00EBB0B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6BB87F3167B089A00EBB0B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6BB87F2167B089A00EBB0B7 /* TelNumNote.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6BB87F5167B089A00EBB0B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6BB87F6167B089A00EBB0B7 /* UIKit.framework */,
+				E6BB87F8167B089A00EBB0B7 /* Foundation.framework */,
+				E6BB87FA167B089A00EBB0B7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6BB87FC167B089A00EBB0B7 /* TelNumNote */ = {
+			isa = PBXGroup;
+			children = (
+				E6BB8805167B089A00EBB0B7 /* AppDelegate.h */,
+				E6BB8806167B089A00EBB0B7 /* AppDelegate.m */,
+				E6BB87FD167B089A00EBB0B7 /* Supporting Files */,
+				E6BB8818167B090900EBB0B7 /* Save.h */,
+				E6BB8819167B090900EBB0B7 /* Save.m */,
+				E6BB881A167B090900EBB0B7 /* Save.xib */,
+				E6BB881D167B091800EBB0B7 /* Num.h */,
+				E6BB881E167B091800EBB0B7 /* Num.m */,
+				E6BB881F167B091800EBB0B7 /* Num.xib */,
+			);
+			path = TelNumNote;
+			sourceTree = "<group>";
+		};
+		E6BB87FD167B089A00EBB0B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6BB87FE167B089A00EBB0B7 /* TelNumNote-Info.plist */,
+				E6BB87FF167B089A00EBB0B7 /* InfoPlist.strings */,
+				E6BB8802167B089A00EBB0B7 /* main.m */,
+				E6BB8804167B089A00EBB0B7 /* TelNumNote-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6BB87F1167B089A00EBB0B7 /* TelNumNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6BB8810167B089A00EBB0B7 /* Build configuration list for PBXNativeTarget "TelNumNote" */;
+			buildPhases = (
+				E6BB87EE167B089A00EBB0B7 /* Sources */,
+				E6BB87EF167B089A00EBB0B7 /* Frameworks */,
+				E6BB87F0167B089A00EBB0B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TelNumNote;
+			productName = TelNumNote;
+			productReference = E6BB87F2167B089A00EBB0B7 /* TelNumNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6BB87E9167B089A00EBB0B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "呼喊";
+			};
+			buildConfigurationList = E6BB87EC167B089A00EBB0B7 /* Build configuration list for PBXProject "TelNumNote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E6BB87E7167B089A00EBB0B7;
+			productRefGroup = E6BB87F3167B089A00EBB0B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6BB87F1167B089A00EBB0B7 /* TelNumNote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6BB87F0167B089A00EBB0B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6BB8801167B089A00EBB0B7 /* InfoPlist.strings in Resources */,
+				E6BB881C167B090900EBB0B7 /* Save.xib in Resources */,
+				E6BB8821167B091800EBB0B7 /* Num.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6BB87EE167B089A00EBB0B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6BB8803167B089A00EBB0B7 /* main.m in Sources */,
+				E6BB8807167B089A00EBB0B7 /* AppDelegate.m in Sources */,
+				E6BB881B167B090900EBB0B7 /* Save.m in Sources */,
+				E6BB8820167B091800EBB0B7 /* Num.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E6BB87FF167B089A00EBB0B7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6BB8800167B089A00EBB0B7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6BB880E167B089A00EBB0B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E6BB880F167B089A00EBB0B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6BB8811167B089A00EBB0B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TelNumNote/TelNumNote-Prefix.pch";
+				INFOPLIST_FILE = "TelNumNote/TelNumNote-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E6BB8812167B089A00EBB0B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TelNumNote/TelNumNote-Prefix.pch";
+				INFOPLIST_FILE = "TelNumNote/TelNumNote-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6BB87EC167B089A00EBB0B7 /* Build configuration list for PBXProject "TelNumNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6BB880E167B089A00EBB0B7 /* Debug */,
+				E6BB880F167B089A00EBB0B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6BB8810167B089A00EBB0B7 /* Build configuration list for PBXNativeTarget "TelNumNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6BB8811167B089A00EBB0B7 /* Debug */,
+				E6BB8812167B089A00EBB0B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6BB87E9167B089A00EBB0B7 /* Project object */;
+}
